@@ -239,7 +239,7 @@ button:active {
 .text-group {
     text-wrap: wrap;
     display: grid;
-    max-width: 250px;
+    max-width: 275px;
     padding: 0 15px;
     align-items: center;
     justify-items: start;
@@ -291,4 +291,5 @@ form input {
     --secondary-color: #ffffff;
     --secondary-color-border: #d9d9d9;
 }
+
 
