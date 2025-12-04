@@ -1,0 +1,26 @@
+
+Title
+Welcome to My Portfolio
+Explore more my work and projects.
+
+About me
+I'm a Information Systems student at Universitas Pelita Harapan Medan with a strong interest in web development, system design, and technology-driven solutions. He began exploring programming during his early ICT studies and has continued developing his skills through online courses, bootcamps, and personal projects. Garvin is passionate about creating practical digital solutions and aims to grow into a skilled Fullstack Developer capable of building impactful and user-focused applications.
+
+My Journey
+From Amateur to Professional
+I started my journey in design five year ago..
+
+Project
+Take a look at my standout projects.
+
+Contact
+Get in Touch
+I'd love to hear from you!
+let me know what do you think!
+
+name,email,message
+
+
+© 2025 My Portfolio
+Privacy Policy
+Terms of Service
