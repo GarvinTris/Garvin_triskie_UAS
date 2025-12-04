@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark justify-content-end align-items-center">
+            <h2 class="fw-bold mb-0" href="#">Garvin Triskie</h2>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#Home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#About" class="nav-link active">About</a></li>
+                    <li class="nav-item"><a href="#Project" class="nav-link active">Project</a></li>
+                    <li class="nav-item"><a href="#skill" class="nav-link active">Skill</a></li>
+                    <li class="nav-item"><a href="#kontek" class="nav-link active">Contact</a></li>
+                    <li id="space" class="d-none d-lg-block">|</li> 
+                    <li class="nav-item"><a href="CV ATS Garvin.pdf" class="nav-link active" download>CV</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container-fluid py-5 profile" id="Home">
+            <img src="Img/Jumbotron.jpg" alt="" id="jumbotron">
+            <img src="Img/Profile.jpg" alt="Me">
+            <h2 class="display-5 fw-bold text-white">Welcome to my Portfolio</h2>
+            <p class="fs-5 text-secondary text-white">Explore my work any features</p>
+            <div class="group-btn">
+                <button id="outline"><a href="#kontek">Contact Me</a></button>
+                <button><a href="#Project">View Project</a></button>
+            </div>
+        </div>
+        <section>
+            <img src="Img/Mail UI.png" alt="" width="800px" id="mail">
+            <div class="mockup">
+                <img src="Img/laptop_realistic.png" alt="Mockup" width="650px" height="650px">
+                <img src="https://wallpaperaccess.com/full/4711385.jpg" alt="Logo Coding" class="position-absolute" style="top: 25%; left: -3%; width: 433px; height: 275px; ">
+            </div>
+            <div class="biografi" id="About">
+                <h2>About Me</h2>
+                <p class="taj">I'm a Information Systems student at Universitas Pelita Harapan Medan with a strong interest in web development, system design, and technology-driven solutions. He began exploring programming during his early ICT studies and has continued developing his skills through online courses, bootcamps, and personal projects. Garvin is passionate about creating practical digital solutions and aims to grow into a skilled Fullstack Developer capable of building impactful and user-focused applications.</p>
+            </div>
+            <div class="project" id="Project">
+                <h2>Features Project</h2>
+                <p>Take a look at my standout projects.</p>
+                <button>See All Projects</button>
+                <div class="filter">
+                    <div class="dropdown">
+                        <button class="dropbtn" id="outline"><img src="https://cdn-icons-png.flaticon.com/128/7710/7710488.png" alt="" width="20px" height="20px"></button>
+                        <div class="dropdown-content">
+                            <ul>
+                                <li><a href="#">Web Development</a></li>
+                                <li><a href="#">Mobile Development</a></li>
+                                <li><a href="#">UI/UX Design</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list-card">
+                <div class="card">
+                    <div class="type"><bdi>Web Development</bdi></div>
+                    <img src="Img/Search bar.png" alt="Project 1">
+                    <h3>Search Bar</h3>
+                    <p>This project was made for challenge my skill</p>
+                </div>
+                <div class="card">
+                    <div class="type"><bdi>Data Scientist</bdi></div>
+                    <img src="Img/Deteksi Cabai.png" alt="Project 2">
+                    <h3>Detection Chili Price at Ramadhan</h3>
+                    
+                    <p>it's project where to detect chill price based on dataset</p>
+                </div>
+                <div class="card">
+                    <div class="type"><bdi>Web Development</bdi></div>
+                    <img src="Img/Edukasi Web.png" alt="Project 3">
+                    <h3>Education Web</h3>
+                    <p>A Website that's teachable for everyone</p>
+                </div>
+            </div>
+            <div class="about-me" id="skill">
+                <h2>Skill</h2>
+                <p>Here's skill what I use to do for.</p>
+                <div class="card-skill">
+                    <div class="skill">
+                        <img src="Img/Web Design.jpg" alt="">
+                        <div class="text-group">
+                            <h3>Web Design</h3>
+                            <bdo class="text-secondary fs-6">From ameteur to Profesional</bdo>
+                            <p>I started since 9 years old making a bunch of website to improve my skill </p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="Img/Web Development.jpg" alt="">
+                        <div class="text-group">
+                            <h3>Web Developer</h3>
+                            <bdo class="text-secondary fs-6">From ameteur to Profesional</bdo>
+                            <p>I started since 9 years old making a bunch of website to improve my skill </p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="Img/Data-scientist.jpg" alt="">
+                        <div class="text-group">
+                            <h3>Data Scientist</h3>
+                            <bdo class="text-secondary fs-6">From ameteur to Profesional</bdo>
+                            <p>I started since 9 years old making a bunch of website to improve my skill </p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="Img/Designer.jpg" alt="">
+                        <div class="text-group">
+                            <h3>Designer</h3>
+                            <bdo class="text-secondary fs-6">From ameteur to Profesional</bdo>
+                            <p>I started since 9 years old making a bunch of website to improve my skill </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact" id="kontek">
+                <div class="text-group">
+                    <h1>Get In Touch</h1>
+                    <p>Let me know what do you think!</p>
+                </div>
+                <form action="Action.html">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" placeholder="Your Name" required>
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" placeholder="Your Email" required>
+                    <label for="message" class="form-label">Message</label>
+                    <input placeholder="Your Message" required></input>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="py-3 mt-5 bg-light">
+        <div class="container d-flex justify-content-center gap-4">
+          <p class="mb-0">&copy; 2025 Garvin Triskie</p>
+          <p class="mb-0 text-secondary">Privacy Policy</p>
+          <p class="mb-0 text-secondary">Terms of Service</p>
+        </div>
+        <div class="container d-flex justify-content-center align-items-center gap-4 py-3">
+            <a href="https://www.instagram.com/gtriskie/"><img src="Img/Instagrams.png" alt="" width="25px" height="25px"></a>
+            <a href="https://x.com/GarvinTriskie"><img src="Img/x.png" alt="" width="25px" height="25px"></a>
+            <a href="https://www.facebook.com/garvin.triskie.1"><img src="Img/Facebook.png" alt="" width="25px" height="25px"></a>
+        </div>
+      </footer>
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+</body>
+</html>
